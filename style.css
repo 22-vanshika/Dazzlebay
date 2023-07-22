@@ -1,0 +1,35 @@
+.gradient-background{
+    background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 10px 20px 15px black;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.img{
+    margin-top: 5px;
+    box-shadow:10px 10px 15px #D66D75;
+    border-radius: 10px;
+}
+.img-fluid {
+    box-shadow: -10px -20px 15px black;
+}
+.card>img{
+    box-shadow: 3px 5px 15px rgb(240, 138, 155);
+}
+.h1{
+    font-size: 3rem;
+    font-family: "Courgette", cursive;
+   text-shadow: rgba(0, 0, 0, 0.64) 2px 0px 10px;
+   font-weight: 600;
+}
+.head>svg{
+    color: black;   
+}
+.head{
+    display: flex;
+}
